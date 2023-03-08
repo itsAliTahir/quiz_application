@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
         body: SingleChildScrollView(
           child: quiz
               ? Padding(
-                  padding: const EdgeInsets.all(30),
+                  padding: const EdgeInsets.all(15),
                   child: Center(
                     child: Column(children: [
                       Text(
@@ -96,6 +96,7 @@ class _MyAppState extends State<MyApp> {
                               ),
                               child: Text(
                                 questions[questionIndex].answers[i],
+                                style: const TextStyle(fontSize: 18),
                               ),
                               onPressed: () {
                                 _scoreCalculate(i);
@@ -124,7 +125,10 @@ class _MyAppState extends State<MyApp> {
                         ),
                         ElevatedButton(
                             onPressed: _resetQuiz,
-                            child: const Text("Reset Quiz"))
+                            child: const Text(
+                              "Reset Quiz",
+                              style: TextStyle(fontSize: 18),
+                            ))
                       ],
                     ),
                   ),
