@@ -113,13 +113,8 @@ class _MyAppState extends State<MyApp> {
                     padding: const EdgeInsets.only(top: 300.0),
                     child: Column(
                       children: [
-                        const Text(
-                          "Thank you for your time!",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 18),
-                        ),
                         Text(
-                          "Total Score: $totalScore",
+                          "Thank you for your time! \n         Total Score: $totalScore",
                           style: const TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 18),
                         ),
