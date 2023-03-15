@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
     const Question(
       'What is your Favourite Hobby?',
       ['Gardening', 'Travelling', 'Playing Games'],
-      [5, 2, 3],
+      [7, 5, 3],
     ),
     const Question(
       'What is your Favourite Animal?',
